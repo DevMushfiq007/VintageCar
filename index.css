@@ -12,3 +12,10 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
+
+.child1 {
+  height: 200px;
+  width: 300px;
+  background: #000;
+  margin-bottom: 10px;
+}
