@@ -1,21 +1,55 @@
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px;
+  padding: 30px 30px;
+
 }
 
-.Options a {
-  text-decoration: none;
-  margin-left: 10px;
+header img {
+  height: 50px;
+  width: auto;
+}
+
+.anchor a {
   color: black;
+  text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
+
 }
 
-.child1 {
-  height: 200px;
-  width: 300px;
-  background: #000;
-  margin-bottom: 10px;
+.bar {
+  display: none;
 }
+
+.Header_right {
+  display: flex;
+
+
+
+}
+
+.Header_right a {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 750px) {
+  .bar {
+    display: block;
+  }
+
+  .anchor {
+    display: none;
+
+  }
+}
+
+@media screen and (max-width: 450px) {}
